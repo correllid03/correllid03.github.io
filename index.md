@@ -24,6 +24,18 @@ Cardiff-by-the-Sea, California, United States · On-siteCardiff-by-the-Sea, Cali
 
 Supervise online orders of eco-friendly lubricant, degreaser, bike wash, and other products. Additionally ensure inventory integrity and refurbishment into Amazon FBA stock.
 
+Additional Projects:
+
+"The War In Ukraine: 2 Years Later"
+CSUSM History Club Project
+
+"The History of Artillery and Siege Warfare in Medieval Spain"
+HIST 400, Capstone Project
+
+Miscellaneous Honors:
+
+Dean's List for Six out of Eight Semesters at CSUSM
+College of Arts and Humanities, CSUSM
 ```
 
 [My LinkedIn Profile](https://www.linkedin.com/in/dominic-correlli-756847237/)
