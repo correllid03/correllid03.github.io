@@ -17,41 +17,18 @@ My name is Dominic Correlli, and welcome to my website.
 
 ## Header 2
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+This is an evolving project, and I hope I will eventually become a **master** of Visual Studio and GitHub through it.
 
 ### Header 3
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+Here is *some* of the work I have done related to supply chain analytics.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+Shipping Manager
+Gear Hugger - Part-time - Gear Hugger - Part-time
+Jun 2023 - Present · 2 yrs 4 mosJun 2023 to Present · 2 yrs 4 mos
+Cardiff-by-the-Sea, California, United States · On-siteCardiff-by-the-Sea, California, United States · On-site
+Supervise online orders of eco-friendly lubricant, degreaser, bike wash, and other products. Additionally ensure inventory integrity and refurbishment into Amazon FBA stock.
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
 ```
 
 ```
