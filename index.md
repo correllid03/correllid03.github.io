@@ -29,4 +29,4 @@ Supervise online orders of eco-friendly lubricant, degreaser, bike wash, and oth
 
 ```
 
-My LinkedIn Profile(https://www.linkedin.com/in/dominic-correlli-756847237/)
+[My LinkedIn Profile](https://www.linkedin.com/in/dominic-correlli-756847237/)
