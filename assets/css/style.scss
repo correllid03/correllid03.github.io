@@ -2,3 +2,20 @@
 ---
 
 @import "jekyll-theme-minimal";
+// _colors.scss
+
+:root {
+  // Light Theme Defaults
+  --primary-color: #007bff;
+  --text-color: #333;
+  --background-color: #f8f9fa;
+  --border-color: #dee2e6;
+}
+
+.dark-theme {
+  // Dark Theme Overrides
+  --primary-color: #66b8ff;
+  --text-color: #f8f9fa;
+  --background-color: #343a40;
+  --border-color: #495057;
+}
