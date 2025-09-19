@@ -9,6 +9,10 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Welcome to the world of Dominic
 description: An OM620 project
+show_downloads: true
+google_analytics:
+
+
 github:
   zip_url: https://correllid03.github.io/
   another_url: https://correllid03.github.io/
