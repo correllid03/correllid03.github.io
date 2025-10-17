@@ -6,7 +6,7 @@ layout: default
 
 ## Step 1
 ### Downloading minimal was not hard with the ZIP being publically available, though it did make me realize I did not have WinRar on this laptop and thus I promptly went to go install that as well.
-![image](C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\step1.png)
+![image](step1.png)
 
 ## Step 2
 ### Commiting it seemed simple enough, but I was an idiot and saved ny changes to the wrong directory. It took me about 20 minutes to realize what I did wrong, but it was simple enough after that.
