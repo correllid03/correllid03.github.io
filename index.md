@@ -11,10 +11,6 @@ layout: default
 
 ### Here is *some* of the work I have done related to supply chain analytics.
 
-index.md
-    projects
-        index.md
-```
 Shipping Manager
 
 Gear Hugger - Part-time - Gear Hugger - Part-time
