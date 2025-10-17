@@ -12,8 +12,8 @@ layout: default
 ### Here is *some* of the work I have done related to supply chain analytics.
 
 index.md
-    _ subpage_1
-        _ index.md
+    projects
+        index.md
 ```
 Shipping Manager
 
