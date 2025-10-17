@@ -6,24 +6,24 @@ layout: default
 
 ## Step 1
 ### Downloading minimal was not hard with the ZIP being publically available, though it did make me realize I did not have WinRar on this laptop and thus I promptly went to go install that as well.
-!image(C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\step1.png)
+![image](C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\step1.png)
 
 ## Step 2
 ### Commiting it seemed simple enough, but I was an idiot and saved ny changes to the wrong directory. It took me about 20 minutes to realize what I did wrong, but it was simple enough after that.
 
 ## Step 3
 ### This process was simple to observe after that through Github Desktop.
-!image(C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\step3.png)
+![image](C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\step3.png)
 
 ## Step 4
 ### Hooray! I can see the changes through a history/commitment date being observable.
-!image(C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\step4.png)
+![image](C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\step4.png)
 
 # Moving beyond getting the minimal demo
 
 ## Using YAML files
 ### Simple enough to edit YAML files, I personally just did it in Notepad.
-!image(C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\yamledit.png)
+![image](C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\yamledit.png)
 
 ## Replacing the stock photo
 ### Again, easy enough to do. Simply put in a file and set the name to 'logo.png',
@@ -33,8 +33,8 @@ layout: default
 
 ## Making a final commit
 ### As before when I first setup the minimal demo template, this was easy enough to observe on the Github website.
-!image(C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\finalstep.png)
+![image](C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\finalstep.png)
 
 ## Final submissionn
 ### Through my recent installation of WinRar, I used it to compress my files into a ZIP and uploaded it to Canvas.
-!image(C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\upload.png)
+![image](C:\Users\domin\OneDrive\Documents\GitHub\correllid03.github.io\subpage_1\assets\img\upload.png)
