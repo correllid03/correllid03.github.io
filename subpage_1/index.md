@@ -5,14 +5,14 @@ layout: default
 # Howdy, you have reached the explanation for how I previously got this website created. With my philosophy of "figuring it out as I go", some content is limited in terms of documentation but that will soon change.
 
 ## Step 1
-### Downloading minimal was not hard with the ZIP being publically available, though it did make me realize I did not have WinRar on this laptop and thus I promptly went to go install that as well.
+### Downloading minimal was not hard with the ZIP being publically available, I simply downloaded it then unzipped it via the default options on Windows.
 ![image](step1.png)
 
 ## Step 2
-### Commiting it seemed simple enough, but I was an idiot and saved ny changes to the wrong directory. It took me about 20 minutes to realize what I did wrong, but it was simple enough after that.
+### Commiting it was simple enough through Github Desktop.
 
 ## Step 3
-### This process was simple to observe after that through Github Desktop.
+### This process was simple to observe after that through the previously mentioned Github Desktop.
 ![image](step3.png)
 
 ## Step 4
