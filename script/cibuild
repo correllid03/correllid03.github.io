@@ -1,12 +1,16 @@
 #!/bin/sh
-
 set -e
-git update-index --chmod=+x script/cibuild
+
+echo "Running Jekyll build..."
 bundle exec jekyll build
+
+echo "Running HTMLProofer..."
 bundle exec htmlproofer ./_site --check-html --check-sri --url-ignore "https://www.linkedin.com/in/dominic-correlli-756847237/"
+
+echo "Running RuboCop..."
 bundle exec rubocop -D --config .rubocop.yml
+
+echo "Running HTML validation script..."
 bundle exec script/validate-html
-gem build jekyll-theme-minimal.gemspec
-git add script/cibuild
-git commit -m "Add executable permission to cibuild script"
-git push
+
+echo "Build and test steps completed successfully."
