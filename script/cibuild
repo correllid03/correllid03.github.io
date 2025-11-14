@@ -1,9 +1,12 @@
 #!/bin/sh
 
 set -e
-
+git update-index --chmod=+x script/cibuild
 bundle exec jekyll build
 bundle exec htmlproofer ./_site --check-html --check-sri
 bundle exec rubocop -D --config .rubocop.yml
 bundle exec script/validate-html
 gem build jekyll-theme-minimal.gemspec
+git add script/cibuild
+git commit -m "Add executable permission to cibuild script"
+git push
