@@ -13,9 +13,11 @@ jobs:
           ruby-version: 3.2
           bundler-cache: true
       
-      # FIX IS HERE: Give permission *before* running the script
-      - name: Make bootstrap script executable
-        run: chmod +x script/bootstrap
+      # FIX IS HERE: Give permission to *BOTH* scripts
+      - name: Make scripts executable
+        run: |
+          chmod +x script/bootstrap
+          chmod +x script/cibuild
         
       - name: build
         run: script/bootstrap
