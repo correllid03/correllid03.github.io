@@ -13,11 +13,12 @@ jobs:
           ruby-version: 3.2
           bundler-cache: true
       
-      # FIX IS HERE: Give permission to *BOTH* scripts
+      # FIX IS HERE: Give permission to *ALL THREE* scripts
       - name: Make scripts executable
         run: |
           chmod +x script/bootstrap
           chmod +x script/cibuild
+          chmod +x script/validate-html  # <-- THIS IS THE NEW LINE
         
       - name: build
         run: script/bootstrap
