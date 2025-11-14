@@ -11,10 +11,6 @@ layout: default
 
 ### Here is *some* of the work I have done related to supply chain analytics.
 
-* **OM 620: Data Analytics**
-    * A showcase of data analysis, visualization, and customer segmentation using Python, pandas, and plotnine.
-    * **[View Project Details](/om620/)**
-
 [Projects](https://correllid03.github.io/projects/)
 
 Shipping Manager
