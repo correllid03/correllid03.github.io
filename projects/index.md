@@ -10,4 +10,4 @@ layout: default
     * **[A guide to how Milestone 1 was completed.](https://correllid03.github.io/subpage_1/)**
     * **[Milestone 3, combining Assignment 1 and 2 notebooks.](/om620/)**
 * **OM 621: Supply Chain Analytics:**
-    * **[Global logistics cost optimization analysis for OM621](/om621/)**
+    * **[Global logistics cost optimization analysis for OM621](/OM621/)**
