@@ -2,39 +2,183 @@
 layout: default
 ---
 
-# My name is Dominic Correlli, and welcome to my website.
+<div class="hero-section">
+  <div class="hero-label">LOGISTICS OPERATIONS • SUPPLY CHAIN ANALYTICS</div>
+  <h1 class="hero-title">Dominic Correlli</h1>
+  <p class="hero-description">
+    Logistics Operations Manager leveraging AI-powered analytics to optimize supply chain performance. 
+    Building production-grade applications at the intersection of operations management and data science.
+  </p>
+  
+  <div class="hero-stats">
+    <div class="stat-item">
+      <div class="stat-value">1,200+</div>
+      <div class="stat-label">Weekly Shipments</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">3.5</div>
+      <div class="stat-label">GPA, MS Analytics</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">2026</div>
+      <div class="stat-label">Graduation</div>
+    </div>
+  </div>
+</div>
 
+## Featured Projects
 
+<div class="projects-grid">
+  <div class="project-card">
+    <span class="project-label">HACKATHON SUBMISSION</span>
+    <h3>E.S.T.E.R. Invoice Intelligence</h3>
+    <p>AI-powered invoice processing platform built for Google DeepMind Gemini 3 Pro hackathon. Handles 11 languages with automated price discrepancy detection and prescriptive procurement analytics.</p>
+    <div class="tech-tags">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">Gemini API</span>
+      <span class="tech-tag">OCR</span>
+      <span class="tech-tag">Streamlit</span>
+    </div>
+    <div class="project-metrics">
+      <div class="metric">
+        <div class="metric-value">11</div>
+        <div class="metric-label">Languages</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">~2000</div>
+        <div class="metric-label">Competitors</div>
+      </div>
+    </div>
+  </div>
 
-## This is an evolving project, and I hope I will eventually become a **master** of Visual Studio and GitHub through it.
+  <div class="project-card">
+    <span class="project-label">RESEARCH ANALYSIS</span>
+    <h3>California Agriculture & Water Crisis</h3>
+    <p>County-level analysis of drought impacts on agricultural production (2015-2023). Examined capital-constrained decision frameworks for crop switching during severe droughts.</p>
+    <div class="tech-tags">
+      <span class="tech-tag">SQL</span>
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">Power BI</span>
+      <span class="tech-tag">Statistical Analysis</span>
+    </div>
+    <div class="project-metrics">
+      <div class="metric">
+        <div class="metric-value">$10.8B</div>
+        <div class="metric-label">Capital at Risk</div>
+      </div>
+      <div class="metric">
+        <div class="metric-value">58</div>
+        <div class="metric-label">Counties</div>
+      </div>
+    </div>
+  </div>
 
+  <div class="project-card">
+    <span class="project-label">SUPPLY CHAIN ANALYSIS</span>
+    <h3>Devon Energy Supply Chain Framework</h3>
+    <p>Comprehensive analysis applying traditional supply chain concepts to upstream energy sector. Reframed regulatory compliance within supply chain management frameworks.</p>
+    <div class="tech-tags">
+      <span class="tech-tag">Operations Research</span>
+      <span class="tech-tag">Strategic Analysis</span>
+    </div>
+  </div>
+</div>
 
-### Here is *some* of the work I have done related to supply chain analytics.
+## Technical Skills
 
-[Projects](https://correllid03.github.io/projects/)
+<div class="skills-grid">
+  <div class="skill-category">
+    <h3>Programming & Data</h3>
+    <ul class="skill-list">
+      <li>Python (Pandas, NumPy, SciPy)</li>
+      <li>SQL (Query Optimization, Database Design)</li>
+      <li>R (Statistical Modeling)</li>
+      <li>Git & Version Control</li>
+    </ul>
+  </div>
 
-Shipping Manager
+  <div class="skill-category">
+    <h3>Analytics & Visualization</h3>
+    <ul class="skill-list">
+      <li>Power BI (DAX, Data Modeling)</li>
+      <li>Tableau</li>
+      <li>Statistical Analysis</li>
+      <li>Monte Carlo Simulation</li>
+    </ul>
+  </div>
 
-Gear Hugger - Part-time - Gear Hugger - Part-time
+  <div class="skill-category">
+    <h3>Supply Chain Domain</h3>
+    <ul class="skill-list">
+      <li>Logistics Operations Management</li>
+      <li>Inventory Optimization</li>
+      <li>Transportation Cost Analysis</li>
+      <li>Demand Forecasting</li>
+    </ul>
+  </div>
 
-Jun 2023 - Present · 2 yrs 4 mosJun 2023 to Present · 2 yrs 4 months.
+  <div class="skill-category">
+    <h3>AI & Development</h3>
+    <ul class="skill-list">
+      <li>LLM Integration (Gemini, Claude)</li>
+      <li>Streamlit Applications</li>
+      <li>AI-Assisted Development</li>
+      <li>OCR & Document Processing</li>
+    </ul>
+  </div>
+</div>
 
-Cardiff-by-the-Sea, California, United States · On-siteCardiff-by-the-Sea, California, United States · On-site
+## Experience & Education
 
-Supervise online orders of eco-friendly lubricant, degreaser, bike wash, and other products. Additionally ensure inventory integrity and refurbishment into Amazon FBA stock.
+<div class="experience-timeline">
+  <div class="experience-card">
+    <div class="experience-header">
+      <div>
+        <div class="experience-title">Logistics Operations Manager</div>
+        <div class="experience-company">Gear Hugger</div>
+      </div>
+      <div class="experience-period">Jun 2023 - Present</div>
+    </div>
+    <p class="experience-description">
+      Manage 1,200+ weekly shipments of eco-friendly products across multi-channel distribution. 
+      Ensure inventory integrity and optimize FBA operations. Developed transportation cost analysis 
+      frameworks integrating global distribution center data.
+    </p>
+  </div>
 
-Additional Projects:
+  <div class="experience-card">
+    <div class="experience-header">
+      <div>
+        <div class="experience-title">MS in Supply Chain Analytics</div>
+        <div class="experience-company">California State University San Marcos</div>
+      </div>
+      <div class="experience-period">Expected Aug 2026 • 3.5 GPA</div>
+    </div>
+    <p class="experience-description">
+      Advanced coursework in operations research, statistical modeling, inventory management, 
+      and transportation optimization. Strong performance across quantitative analysis and 
+      supply chain strategy courses.
+    </p>
+  </div>
 
-"The War In Ukraine: 2 Years Later"
-CSUSM History Club Project
+  <div class="experience-card">
+    <div class="experience-header">
+      <div>
+        <div class="experience-title">BA in History</div>
+        <div class="experience-company">California State University San Marcos</div>
+      </div>
+      <div class="experience-period">Completed</div>
+    </div>
+    <p class="experience-description">
+      Dean's List recognition for six out of eight semesters. Developed strong research, 
+      analytical thinking, and written communication skills through capstone projects.
+    </p>
+  </div>
+</div>
 
-"The History of Artillery and Siege Warfare in Medieval Spain"
-HIST 400, Capstone Project
+---
 
-Miscellaneous Honors:
-
-Dean's List for Six out of Eight Semesters at CSUSM
-College of Arts and Humanities, CSUSM
-```
-
-[My LinkedIn Profile](https://www.linkedin.com/in/dominic-correlli-756847237/)
+<div class="contact-section">
+  <a href="https://github.com/correllid03" target="_blank" class="contact-link">GitHub</a>
+  <a href="https://www.linkedin.com/in/dominic-correlli-756847237/" target="_blank" class="contact-link">LinkedIn</a>
+</div>

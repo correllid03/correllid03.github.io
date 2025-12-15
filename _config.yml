@@ -1,18 +1,9 @@
-title: Minimal theme
+title: Dominic Correlli
 logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+description: Logistics Operations Manager • Supply Chain Analytics
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: Welcome to the world of Dominic!
-description: An OM620 project.
-show_downloads: true
-google_analytics:
-
-
-github:
-  zip_url: https://correllid03.github.io/
-  another_url: https://correllid03.github.io/
+- jekyll-remote-theme
