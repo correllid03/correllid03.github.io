@@ -330,6 +330,42 @@ a:hover {
   color: var(--text-muted);
 }
 
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 229, 255, 0.1);
+  border: 1px solid rgba(0, 229, 255, 0.3);
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-primary) !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  background: rgba(0, 229, 255, 0.2);
+  border-color: var(--accent-primary);
+  transform: translateY(-2px);
+}
+
+.project-card h3 a {
+  color: var(--text-primary) !important;
+  text-decoration: none !important;
+  transition: color 0.3s ease;
+}
+
+.project-card h3 a:hover {
+  color: var(--accent-primary) !important;
+}
+
 /* Skills Grid */
 .skills-grid {
   display: grid;

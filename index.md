@@ -3,17 +3,17 @@ layout: default
 ---
 
 <div class="hero-section">
-  <div class="hero-label">LOGISTICS OPERATIONS • SUPPLY CHAIN ANALYTICS</div>
+  <div class="hero-label">DATA ANALYST • SUPPLY CHAIN & OPERATIONS RESEARCH</div>
   <h1 class="hero-title">Dominic Correlli</h1>
   <p class="hero-description">
-    Logistics Operations Manager leveraging AI-powered analytics to optimize supply chain performance. 
-    Building production-grade applications at the intersection of operations management and data science.
+    Building data-driven solutions for supply chain optimization and operational analytics. 
+    Combining SQL, Python, and statistical modeling to solve complex business problems.
   </p>
   
   <div class="hero-stats">
     <div class="stat-item">
-      <div class="stat-value">1,200+</div>
-      <div class="stat-label">Weekly Shipments</div>
+      <div class="stat-value">100K+</div>
+      <div class="stat-label">Records Analyzed</div>
     </div>
     <div class="stat-item">
       <div class="stat-value">3.5</div>
@@ -31,8 +31,8 @@ layout: default
 <div class="projects-grid">
   <div class="project-card">
     <span class="project-label">HACKATHON SUBMISSION</span>
-    <h3>E.S.T.E.R. Invoice Intelligence</h3>
-    <p>AI-powered invoice processing platform built for Google DeepMind Gemini 3 Pro hackathon. Handles 11 languages with automated price discrepancy detection and prescriptive procurement analytics.</p>
+    <h3><a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%2210Ilr0ZjTGTSeEU5f54OON0zdIhpIH1WO%22%5D,%22action%22:%22open%22,%22userId%22:%22102934307143670763064%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank">E.S.T.E.R. Invoice Intelligence</a></h3>
+    <p>AI-powered invoice processing platform built for Google DeepMind Gemini API Developer Competition. Handles 11 languages with automated price discrepancy detection and prescriptive procurement analytics.</p>
     <div class="tech-tags">
       <span class="tech-tag">Python</span>
       <span class="tech-tag">Gemini API</span>
@@ -49,37 +49,34 @@ layout: default
         <div class="metric-label">Competitors</div>
       </div>
     </div>
+    <div class="project-links">
+      <a href="https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%2210Ilr0ZjTGTSeEU5f54OON0zdIhpIH1WO%22%5D,%22action%22:%22open%22,%22userId%22:%22102934307143670763064%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing" target="_blank" class="project-link">Live Demo →</a>
+    </div>
   </div>
 
   <div class="project-card">
-    <span class="project-label">RESEARCH ANALYSIS</span>
-    <h3>California Agriculture & Water Crisis</h3>
-    <p>County-level analysis of drought impacts on agricultural production (2015-2023). Examined capital-constrained decision frameworks for crop switching during severe droughts.</p>
+    <span class="project-label">SUPPLY CHAIN ANALYTICS</span>
+    <h3><a href="https://github.com/correllid03/OM621Assignments" target="_blank">Global Transportation Cost Optimization</a></h3>
+    <p>Analyzed 100K+ shipment records across three continents to identify $180M+ in potential savings. Built Power BI dashboards and predictive models for strategic routing decisions.</p>
     <div class="tech-tags">
-      <span class="tech-tag">SQL</span>
       <span class="tech-tag">Python</span>
+      <span class="tech-tag">SQL</span>
       <span class="tech-tag">Power BI</span>
-      <span class="tech-tag">Statistical Analysis</span>
+      <span class="tech-tag">Pandas</span>
     </div>
     <div class="project-metrics">
       <div class="metric">
-        <div class="metric-value">$10.8B</div>
-        <div class="metric-label">Capital at Risk</div>
+        <div class="metric-value">$1.1B</div>
+        <div class="metric-label">Annual Spend</div>
       </div>
       <div class="metric">
-        <div class="metric-value">58</div>
-        <div class="metric-label">Counties</div>
+        <div class="metric-value">40-50%</div>
+        <div class="metric-label">Cost Variance</div>
       </div>
     </div>
-  </div>
-
-  <div class="project-card">
-    <span class="project-label">SUPPLY CHAIN ANALYSIS</span>
-    <h3>Devon Energy Supply Chain Framework</h3>
-    <p>Comprehensive analysis applying traditional supply chain concepts to upstream energy sector. Reframed regulatory compliance within supply chain management frameworks.</p>
-    <div class="tech-tags">
-      <span class="tech-tag">Operations Research</span>
-      <span class="tech-tag">Strategic Analysis</span>
+    <div class="project-links">
+      <a href="https://github.com/correllid03/OM621Assignments" target="_blank" class="project-link">View Repository →</a>
+      <a href="/om621/" class="project-link">Full Analysis →</a>
     </div>
   </div>
 </div>
@@ -134,21 +131,6 @@ layout: default
   <div class="experience-card">
     <div class="experience-header">
       <div>
-        <div class="experience-title">Logistics Operations Manager</div>
-        <div class="experience-company">Gear Hugger</div>
-      </div>
-      <div class="experience-period">Jun 2023 - Present</div>
-    </div>
-    <p class="experience-description">
-      Manage 1,200+ weekly shipments of eco-friendly products across multi-channel distribution. 
-      Ensure inventory integrity and optimize FBA operations. Developed transportation cost analysis 
-      frameworks integrating global distribution center data.
-    </p>
-  </div>
-
-  <div class="experience-card">
-    <div class="experience-header">
-      <div>
         <div class="experience-title">MS in Supply Chain Analytics</div>
         <div class="experience-company">California State University San Marcos</div>
       </div>
@@ -156,8 +138,23 @@ layout: default
     </div>
     <p class="experience-description">
       Advanced coursework in operations research, statistical modeling, inventory management, 
-      and transportation optimization. Strong performance across quantitative analysis and 
-      supply chain strategy courses.
+      and transportation optimization. Developed production-grade analytical applications and 
+      completed projects analyzing 100K+ records for cost optimization and forecasting.
+    </p>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-header">
+      <div>
+        <div class="experience-title">Shipping Operations</div>
+        <div class="experience-company">Gear Hugger</div>
+      </div>
+      <div class="experience-period">Jun 2023 - Present</div>
+    </div>
+    <p class="experience-description">
+      Manage multi-channel distribution operations and FBA inventory for eco-friendly product line. 
+      Developed transportation cost analysis frameworks and data collection systems supporting 
+      academic research in supply chain optimization.
     </p>
   </div>
 
