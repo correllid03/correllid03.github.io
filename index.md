@@ -2,76 +2,65 @@
 layout: default
 ---
 <style>
-/* 1. BREAK THE CONTAINER LIMITS */
+/* --- MASTER CSS DASHBOARD THEME --- */
+:root {
+    --bg-dark: #0d1117;
+    --bg-panel: #161b22;
+    --border: #30363d;
+    --accent: #2f81f7; /* GitHub/Data Blue */
+    --text-main: #c9d1d9;
+    --text-muted: #8b949e;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
 .wrapper {
-    max-width: 100% !important; /* Force full width */
+    max-width: 100% !important;
     width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
-    display: flex; /* Use Flexbox to put sidebar and content side-by-side */
+    display: flex;
     min-height: 100vh;
 }
 
-/* 2. FIX THE SIDEBAR (LEFT) */
+/* --- SIDEBAR --- */
 header {
-    width: 350px !important; /* Fixed width for sidebar */
-    min-width: 350px !important;
-    background-color: #0d1117; /* Darker background to separate it */
-    border-right: 1px solid #30363d; /* Subtle separator line */
-    position: fixed; /* Lock it in place */
-    height: 100vh; /* Full height */
-    overflow-y: auto; /* Scroll if sidebar gets too tall */
+    width: 320px !important;
+    min-width: 320px !important;
+    background-color: var(--bg-dark);
+    border-right: 1px solid var(--border);
+    position: fixed;
+    height: 100vh;
     padding: 40px !important;
+    overflow-y: auto;
     z-index: 100;
 }
 
-/* 3. EXPAND THE CONTENT (RIGHT) */
-section {
-    margin-left: 350px !important; /* Push content to right of sidebar */
-    width: calc(100% - 350px) !important; /* Take remaining space */
-    max-width: 1400px !important; /* Stop lines from getting TOO long to read */
-    padding: 60px 80px !important;
-}
-
-/* 4. MAKE IT MOBILE FRIENDLY */
-@media screen and (max-width: 900px) {
-    .wrapper {
-        flex-direction: column;
-    }
-    header {
-        position: relative;
-        width: 100% !important;
-        height: auto;
-        border-right: none;
-        border-bottom: 1px solid #30363d;
-    }
-    section {
-        margin-left: 0 !important;
-        width: 100% !important;
-        padding: 30px !important;
-    }
-}
-
-/* OPTIONAL: MAKE THE HERO SECTION POP */
-.hero-section {
-    background: linear-gradient(to right, #161b22, #0d1117);
-    padding: 40px;
-    border-radius: 8px;
-    border: 1px solid #30363d;
-    margin-bottom: 40px;
-}
-/* 1. Fix the Sidebar Name Redundancy */
-/* We make the sidebar name smaller and less aggressive */
+/* Fix the redundant name in sidebar */
 header h1, header h2 {
-    font-size: 1.2rem !important; /* Shrink it */
-    color: var(--text-muted) !important; /* Dim it */
+    font-size: 1.1rem !important; 
+    color: var(--text-muted) !important;
     margin-bottom: 20px !important;
+    font-weight: 500;
+}
+header p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
 }
 
-/* 2. Turn the Link into a Proper Button */
-/* Targets the link inside the contact-section div */
-.contact-section a {
-    display: block; /* Make it a block so it fills width */
+/* Sidebar Button Styling */
+.contact-section { margin-top: 20px; }
+.contact-section a, header a {
+    color: var(--accent);
+    text-decoration: none;
+}
+.contact-btn {
+    display: block;
     background-color: var(--bg-panel);
     border: 1px solid var(--border);
     color: #fff !important;
@@ -79,22 +68,186 @@ header h1, header h2 {
     padding: 10px 0;
     margin-top: 10px;
     border-radius: 6px;
-    text-decoration: none;
     font-weight: 600;
     transition: all 0.2s;
 }
-
-.contact-section a:hover {
-    background-color: var(--accent); /* Turns blue on hover */
+.contact-btn:hover {
+    background-color: var(--accent);
     border-color: var(--accent);
-    color: #fff !important;
 }
 
-/* 3. Clean up the "Floating" text */
-header p {
+/* --- CONTENT AREA --- */
+section {
+    margin-left: 320px !important;
+    width: calc(100% - 320px) !important;
+    max-width: 1400px !important;
+    padding: 60px 80px !important;
+}
+
+/* --- COMPONENTS --- */
+
+/* Hero/KPI Section */
+.hero-section {
+    background: linear-gradient(180deg, var(--bg-panel) 0%, var(--bg-dark) 100%);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+.hero-label {
+    color: var(--accent);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.hero-title {
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 10px 0;
+}
+.hero-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+}
+.stat-value { font-size: 1.8rem; font-weight: 700; color: #fff; }
+.stat-label { font-size: 0.8rem; color: var(--text-muted); }
+
+/* Projects Grid */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.project-card {
+    background-color: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 25px;
+    transition: transform 0.2s, border-color 0.2s;
+}
+.project-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+}
+.project-label {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: var(--text-muted);
+    border: 1px solid var(--border);
+    padding: 2px 8px;
+    border-radius: 100px;
+}
+.project-metrics {
+    display: flex;
+    gap: 20px;
+    margin: 15px 0;
+    padding: 10px 0;
+    border-top: 1px solid #30363d50;
+    border-bottom: 1px solid #30363d50;
+}
+.metric-value { font-weight: bold; color: #fff; }
+.metric-label { font-size: 0.75rem; color: var(--text-muted); }
+.project-links { margin-top: 15px; }
+.project-link { margin-right: 15px; font-weight: 600; font-size: 0.9rem; }
+
+/* Tech Tags */
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 15px 0;
+}
+.tech-tag {
+    font-size: 0.75rem;
+    font-family: monospace;
+    background: #21262d;
+    color: var(--accent);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.skill-category {
+    background: var(--bg-panel);
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+.skill-category h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    color: #fff;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+}
+
+/* Experience Timeline */
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    position: relative;
+    border-left: 2px solid var(--border);
+    padding-left: 20px;
+}
+.experience-card {
+    background-color: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 25px;
+    position: relative;
+}
+.experience-card::before {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 30px;
+    width: 12px;
+    height: 12px;
+    background: var(--accent);
+    border-radius: 50%;
+    border: 2px solid var(--bg-dark);
+}
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.experience-title { font-size: 1.1rem; font-weight: 700; color: #fff; }
+.experience-company { font-size: 0.9rem; color: var(--accent); margin-top: 4px; }
+.experience-period {
     font-size: 0.85rem;
     color: var(--text-muted);
-    line-height: 1.5;
+    font-family: monospace;
+    background: #21262d;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Mobile Fix */
+@media screen and (max-width: 900px) {
+    .wrapper { flex-direction: column; }
+    header { width: 100% !important; position: relative; height: auto; border-right: none; }
+    section { margin-left: 0 !important; width: 100% !important; padding: 20px !important; }
+    .skills-grid { grid-template-columns: 1fr; }
+    .experience-timeline { padding-left: 0; border-left: none; }
+    .experience-card::before { display: none; }
 }
 </style>
 
@@ -272,6 +425,6 @@ header p {
 ---
 
 <div class="contact-section">
-  <a href="https://github.com/correllid03" target="_blank" class="contact-link">GitHub</a>
-  <a href="https://www.linkedin.com/in/dominic-correlli-756847237/" target="_blank" class="contact-link">LinkedIn</a>
+  <a href="https://github.com/correllid03" target="_blank" class="contact-btn">View GitHub Profile</a>
+  <a href="https://www.linkedin.com/in/dominic-correlli-756847237/" target="_blank" class="contact-btn">View LinkedIn Profile</a>
 </div>
