@@ -60,6 +60,42 @@ section {
     border: 1px solid #30363d;
     margin-bottom: 40px;
 }
+/* 1. Fix the Sidebar Name Redundancy */
+/* We make the sidebar name smaller and less aggressive */
+header h1, header h2 {
+    font-size: 1.2rem !important; /* Shrink it */
+    color: var(--text-muted) !important; /* Dim it */
+    margin-bottom: 20px !important;
+}
+
+/* 2. Turn the Link into a Proper Button */
+/* Targets the link inside the contact-section div */
+.contact-section a {
+    display: block; /* Make it a block so it fills width */
+    background-color: var(--bg-panel);
+    border: 1px solid var(--border);
+    color: #fff !important;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.contact-section a:hover {
+    background-color: var(--accent); /* Turns blue on hover */
+    border-color: var(--accent);
+    color: #fff !important;
+}
+
+/* 3. Clean up the "Floating" text */
+header p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
 </style>
 
 <div class="hero-section">
