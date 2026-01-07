@@ -1,6 +1,66 @@
 ---
 layout: default
 ---
+<style>
+/* 1. BREAK THE CONTAINER LIMITS */
+.wrapper {
+    max-width: 100% !important; /* Force full width */
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex; /* Use Flexbox to put sidebar and content side-by-side */
+    min-height: 100vh;
+}
+
+/* 2. FIX THE SIDEBAR (LEFT) */
+header {
+    width: 350px !important; /* Fixed width for sidebar */
+    min-width: 350px !important;
+    background-color: #0d1117; /* Darker background to separate it */
+    border-right: 1px solid #30363d; /* Subtle separator line */
+    position: fixed; /* Lock it in place */
+    height: 100vh; /* Full height */
+    overflow-y: auto; /* Scroll if sidebar gets too tall */
+    padding: 40px !important;
+    z-index: 100;
+}
+
+/* 3. EXPAND THE CONTENT (RIGHT) */
+section {
+    margin-left: 350px !important; /* Push content to right of sidebar */
+    width: calc(100% - 350px) !important; /* Take remaining space */
+    max-width: 1400px !important; /* Stop lines from getting TOO long to read */
+    padding: 60px 80px !important;
+}
+
+/* 4. MAKE IT MOBILE FRIENDLY */
+@media screen and (max-width: 900px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    header {
+        position: relative;
+        width: 100% !important;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid #30363d;
+    }
+    section {
+        margin-left: 0 !important;
+        width: 100% !important;
+        padding: 30px !important;
+    }
+}
+
+/* OPTIONAL: MAKE THE HERO SECTION POP */
+.hero-section {
+    background: linear-gradient(to right, #161b22, #0d1117);
+    padding: 40px;
+    border-radius: 8px;
+    border: 1px solid #30363d;
+    margin-bottom: 40px;
+}
+</style>
 
 <div class="hero-section">
   <div class="hero-label">DATA ANALYST • SUPPLY CHAIN & OPERATIONS RESEARCH</div>
